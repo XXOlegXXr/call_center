@@ -75,3 +75,15 @@ direct_media=no
 type=identify
 endpoint=zadarma
 match=sip.zadarma.com
+
+
+
+
+Activate venv & run FastAPI server
+
+source venv/bin/activate
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+
+
