@@ -49,16 +49,15 @@ sudo systemctl restart alertmanager
 
 
 **Technologies Used**
-~~ VoIP/ATC: Asterisk 22.x ~~
-~~OS: Ubuntu Server ~~
-~~ Sip trank: Zadarma ~~
-~~Softphone: MicroSIP, Zoiper ~~
-~~ Monitoring: Prometheus + node_exporter ~~
-~~ Route alert: alertmanager ~~
-~~Ralay: FastAPI ~~
-~~ Gmail message: POSTFIX, Gmail SMTP ~~
-~~ server up: systemd ~~
-~~ Config: pjsip.conf, extensions.conf, queues.conf, voicemail.conf ~~
-
+- [x] VoIP/ATC: Asterisk 22.x
+- [x] OS: Ubuntu Server
+- [x] SIP trunk: Zadarma
+- [x] Softphone: MicroSIP, Zoiper
+- [x] Monitoring: Prometheus + node_exporter
+- [x] Route alert: Alertmanager
+- [x] Relay: FastAPI
+- [x] Gmail message: Gmail SMTP
+- [x] Server up: systemd
+- [x] Config: pjsip.conf, extensions.conf, queues.conf, voicemail.conf
 
 
